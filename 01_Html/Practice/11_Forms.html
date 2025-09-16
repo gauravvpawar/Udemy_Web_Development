@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms practice</title>
+</head>
+<body>
+    <!-- learn about  the  form -->
+     <form action="" method="post">
+         <label for="username">Enter the username :</label>
+         <input type="text" name="username">
+         <br>
+         <label for="email">Enter your email : </label>
+         <input type="email" name="email">
+         <br>
+         <label for="password">Enter the password :</label>
+         <input type="text" name="password">
+         <br>
+         <label for="number">Enter your Phone number : </label>
+         <input type="tel" name="number">
+         <br>
+         <label for="url">Enter your portfolio link</label>
+         <input type="url" name="url">
+         <br>
+         <label for="dob">Enter you date of birth : </label>
+         <input type="date" name="dob">
+         <br>
+         <label for="File">Upload your photo : </label>
+         <input type="file" name="file">
+         <br>
+         <label for="message">Enter your message : </label>
+         <textarea name="message" id="message" cols="5" rows="4"></textarea>
+         <br>
+         <label for="gender">Select your gender: </label>
+         <input type="radio" name="gender" value="male" id="male">
+         <label for="male">male</label>
+        <input type="radio" name="gender" value="female" id="female">
+         <label for="female">female</label>
+
+         <br>
+
+         <label for="country">Select your country: </label>
+         <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="Japan">Japan</option>
+            <option value="Australia">Australia</option>
+         </select>
+         <br>
+
+         <label for="interest">Select you interest:</label>
+         <input type="checkbox" name="interest" value="technology" id="technology">
+         <label for="technology">technology</label>
+
+         <input type="checkbox" name="interest" value="Sports" id="Sports">
+         <label for="Sports">Sports</label>
+
+         <input type="checkbox" name="interest" value="Reading" id="Reading">
+         <label for="Reading">Reading</label>
+
+         <input type="checkbox" name="interest" value="music" id="music">
+         <label for="music">Music</label>
+
+         <br>
+         <button type="reset">Reset</button>
+         <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
