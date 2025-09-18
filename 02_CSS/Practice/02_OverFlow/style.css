@@ -1,0 +1,22 @@
+.box{
+    height: 200px;
+    width: 400px;
+    border: 10px solid black;
+    /* by default overflow is visible */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+.box1{
+    height: 200px;
+    border: 10px solid red;
+    /* text  must be scrollable at the y axis */
+    overflow-y: auto;
+}
+
+.box3
+{
+    width: 300px;
+    overflow-x: auto;
+    height: 200px;
+}
