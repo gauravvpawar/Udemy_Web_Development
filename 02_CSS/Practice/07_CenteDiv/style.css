@@ -1,0 +1,17 @@
+/*  */
+
+.wrapper
+{
+    height: 500px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+}

@@ -1,41 +1,41 @@
-.wrapper {
-    height: 2000px;
-    width: 100%;
+.wrapper
+{
+    height: 1000px;
     background-color: yellow;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    /* position: relative; Makes it the reference for #box3 */
 }
 
-.box {
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    background-color: aqua;
-}
-
-#box2 {
-    position: relative;
-    background-color: lightcoral;
-    margin-top: 400px; /* Moves just box2 down */
-}
-
-#box3 {
-    position: absolute;
-    top: 1000px;
-    left: 10px;
-    background-color: blue;
-    width: 100px;
+.box
+{
     height: 100px;
-    color: white;
+    width: 100px;
+    background-color: cyan;
+    border: 2px solid black;
+    display: inline-block;
 }
 
-#box4 {
+#box1{
+    /* default property for the div */
+    position:static; 
+}
+
+#box2{
+    position: relative;
+    top: 100px;
+}
+
+#box3{
     position: fixed;
     right: 0;
-    top: 0; /* optional */
-    background-color: green;
-    width: 100px;
-    height: 100px;
+}
+
+#box4{
+    position: sticky;
+    top: 0; /* it fixed to the display */
+}
+
+#box5{
+    position: absolute; /*when you move item independenlty */
+    top: 100px;
+    left: 200px;
+    background-color: orange;
 }

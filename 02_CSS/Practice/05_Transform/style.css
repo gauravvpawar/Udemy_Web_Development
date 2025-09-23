@@ -1,0 +1,13 @@
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* to move x and y you can use the  translate x,y z */
+    transform:translateX(10em); 
+    transform: scale(1.2);
+    box-sizing: border-box;
+/* Multiple function values */
+transform: perspective(500px) translate3d(10px, 0, 20px) translateX(10px) rotate(10deg) translateY(50px);
+}
