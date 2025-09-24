@@ -1,0 +1,24 @@
+/* Write your code here: */
+
+/* by the grouping of tag */
+h1 , h2{
+    color: blueviolet;
+}
+
+div > p{
+    color: firebrick;
+}
+
+/* descendent selector */
+.box li{
+    color: blue;
+}
+
+/* chaining selector */
+li.done{
+    color: green;
+}
+
+ul> p.done{
+    font-size: 0.5rem;
+}
