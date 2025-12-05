@@ -33,3 +33,27 @@ document.getElementById('2').textContent  = `Your age is : ${age}`;
 document.getElementById('3').textContent = `Graduate or not : ${graduated}`;
 document.getElementById('4').textContent = `Your CGPA: ${CGPA}`;
 document.getElementById('5').textContent = `Passing year Grade : ${Grade}`;
+
+// to store the object 
+const Person ={
+    name : "Gaurav" , 
+    age : 22
+}
+
+console.log(Person); // object value
+// access the value using dot
+console.log(Person.name);
+console.log(Person.age);
+//access value using braces
+console.log(Person["name"]);
+console.log(Person["age"]);
+
+
+// addition in js
+let num1 = 10 , num2 = 25;
+console.log("Addition: " , num1 + num2);
+
+
+let username = "Gaurav";
+let Url = "www.";
+console.log(`Your url : ${Url}${username}`);
