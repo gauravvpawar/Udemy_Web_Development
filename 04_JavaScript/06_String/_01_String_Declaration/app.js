@@ -10,3 +10,6 @@ console.log("name : " , myName);
 myName.length() -> it return length
 myName.slice(0 , 3) -> it slice string
 */
+
+let str = `Welcome to the real world : ${myName}`;
+console.log(str);
